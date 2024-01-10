@@ -1,0 +1,77 @@
+#browse {
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .browsebox {
+        display: flex;
+        align-items: end;
+        width: 82%;
+        height: 80vh;
+        display: flex;
+
+        img {
+            height: 90%;
+        }
+
+        .text {
+            padding-left: 200px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .mytext {
+                display: flex;
+                flex-direction: column;
+                h4{
+                    font-size: xx-large;
+                    color: rgb(51,51,51);
+                }
+                h1{
+                    width: 500px;
+                    font-size: 60px;
+                    line-height: 50px;
+                    
+                }
+                p{
+                    margin-top: 20px;
+                    color: rgb(51,51,51);
+                }
+            }
+        }
+        
+        .browse-button{
+            height: 50px;
+            width: 155px;
+            color: white;
+            background-color: blue;
+            border-radius: 20px;
+            border: none; 
+            margin-top: 50px;
+            font-size: 17px;        
+            
+        }
+
+        .browse-button:hover{
+            cursor: pointer;
+            color: black;
+            background-color:  white ;
+            border-radius: 20px;
+            border: 1px solid rgb(19, 70, 165);
+            transition: 0.4s;
+            
+        }
+    }
+
+    .sey {
+        left: 0;
+        position: absolute;
+        background-color: blue;
+        z-index: -1;
+        width: 25%;
+        height: 99%;
+    }
+}
